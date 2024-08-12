@@ -1,0 +1,322 @@
+[
+    {
+        "successor": "granddaughter",
+        "predecessor_1": "wife",
+        "predecessor_2": "granddaughter"
+    },
+    {
+        "successor": "granddaughter",
+        "predecessor_1": "husband",
+        "predecessor_2": "granddaughter"
+    },
+    {
+        "successor": "grandson",
+        "predecessor_1": "wife",
+        "predecessor_2": "grandson"
+    },
+    {
+        "successor": "grandson",
+        "predecessor_1": "husband",
+        "predecessor_2": "grandson"
+    },
+    {
+        "successor": "daughter-in-law",
+        "predecessor_1": "daughter",
+        "predecessor_2": "wife"
+    },
+    {
+        "successor": "daughter-in-law",
+        "predecessor_1": "son",
+        "predecessor_2": "wife"
+    },
+    {
+        "successor": "son-in-law",
+        "predecessor_1": "daughter",
+        "predecessor_2": "husband"
+    },
+    {
+        "successor": "son-in-law",
+        "predecessor_1": "son",
+        "predecessor_2": "husband"
+    },
+    {
+        "successor": "daughter",
+        "predecessor_1": "wife",
+        "predecessor_2": "daughter"
+    },
+    {
+        "successor": "daughter",
+        "predecessor_1": "husband",
+        "predecessor_2": "daughter"
+    },
+    {
+        "successor": "son",
+        "predecessor_1": "wife",
+        "predecessor_2": "son"
+    },
+    {
+        "successor": "son",
+        "predecessor_1": "husband",
+        "predecessor_2": "son"
+    },
+    {
+        "successor": "mother",
+        "predecessor_1": "daughter",
+        "predecessor_2": "grandmother"
+    },
+    {
+        "successor": "mother",
+        "predecessor_1": "son",
+        "predecessor_2": "grandmother"
+    },
+    {
+        "successor": "father",
+        "predecessor_1": "daughter",
+        "predecessor_2": "grandfather"
+    },
+    {
+        "successor": "father",
+        "predecessor_1": "son",
+        "predecessor_2": "grandfather"
+    },
+    {
+        "successor": "sister",
+        "predecessor_1": "mother",
+        "predecessor_2": "daughter"
+    },
+    {
+        "successor": "sister",
+        "predecessor_1": "father",
+        "predecessor_2": "daughter"
+    },
+    {
+        "successor": "brother",
+        "predecessor_1": "mother",
+        "predecessor_2": "son"
+    },
+    {
+        "successor": "brother",
+        "predecessor_1": "father",
+        "predecessor_2": "son"
+    },
+    {
+        "successor": "mother-in-law",
+        "predecessor_1": "wife",
+        "predecessor_2": "mother"
+    },
+    {
+        "successor": "mother-in-law",
+        "predecessor_1": "husband",
+        "predecessor_2": "mother"
+    },
+    {
+        "successor": "father-in-law",
+        "predecessor_1": "wife",
+        "predecessor_2": "father"
+    },
+    {
+        "successor": "father-in-law",
+        "predecessor_1": "husband",
+        "predecessor_2": "father"
+    },
+    {
+        "successor": "granddaughter",
+        "predecessor_1": "daughter",
+        "predecessor_2": "daughter"
+    },
+    {
+        "successor": "granddaughter",
+        "predecessor_1": "son",
+        "predecessor_2": "daughter"
+    },
+    {
+        "successor": "grandson",
+        "predecessor_1": "daughter",
+        "predecessor_2": "son"
+    },
+    {
+        "successor": "grandson",
+        "predecessor_1": "son",
+        "predecessor_2": "son"
+    },
+    {
+        "successor": "sister",
+        "predecessor_1": "daughter",
+        "predecessor_2": "aunt"
+    },
+    {
+        "successor": "sister",
+        "predecessor_1": "son",
+        "predecessor_2": "aunt"
+    },
+    {
+        "successor": "brother",
+        "predecessor_1": "daughter",
+        "predecessor_2": "uncle"
+    },
+    {
+        "successor": "brother",
+        "predecessor_1": "son",
+        "predecessor_2": "uncle"
+    },
+    {
+        "successor": "grandmother",
+        "predecessor_1": "mother",
+        "predecessor_2": "mother"
+    },
+    {
+        "successor": "grandmother",
+        "predecessor_1": "father",
+        "predecessor_2": "mother"
+    },
+    {
+        "successor": "grandfather",
+        "predecessor_1": "mother",
+        "predecessor_2": "father"
+    },
+    {
+        "successor": "grandfather",
+        "predecessor_1": "father",
+        "predecessor_2": "father"
+    },
+    {
+        "successor": "granddaughter",
+        "predecessor_1": "granddaughter",
+        "predecessor_2": "sister"
+    },
+    {
+        "successor": "granddaughter",
+        "predecessor_1": "grandson",
+        "predecessor_2": "sister"
+    },
+    {
+        "successor": "grandson",
+        "predecessor_1": "granddaughter",
+        "predecessor_2": "brother"
+    },
+    {
+        "successor": "grandson",
+        "predecessor_1": "grandson",
+        "predecessor_2": "brother"
+    },
+    {
+        "successor": "daughter",
+        "predecessor_1": "daughter",
+        "predecessor_2": "sister"
+    },
+    {
+        "successor": "daughter",
+        "predecessor_1": "son",
+        "predecessor_2": "sister"
+    },
+    {
+        "successor": "son",
+        "predecessor_1": "daughter",
+        "predecessor_2": "brother"
+    },
+    {
+        "successor": "son",
+        "predecessor_1": "son",
+        "predecessor_2": "brother"
+    },
+    {
+        "successor": "niece",
+        "predecessor_1": "sister",
+        "predecessor_2": "daughter"
+    },
+    {
+        "successor": "niece",
+        "predecessor_1": "brother",
+        "predecessor_2": "daughter"
+    },
+    {
+        "successor": "nephew",
+        "predecessor_1": "sister",
+        "predecessor_2": "son"
+    },
+    {
+        "successor": "nephew",
+        "predecessor_1": "brother",
+        "predecessor_2": "son"
+    },
+    {
+        "successor": "aunt",
+        "predecessor_1": "mother",
+        "predecessor_2": "sister"
+    },
+    {
+        "successor": "aunt",
+        "predecessor_1": "father",
+        "predecessor_2": "sister"
+    },
+    {
+        "successor": "uncle",
+        "predecessor_1": "mother",
+        "predecessor_2": "brother"
+    },
+    {
+        "successor": "uncle",
+        "predecessor_1": "father",
+        "predecessor_2": "brother"
+    },
+    {
+        "successor": "mother",
+        "predecessor_1": "sister",
+        "predecessor_2": "mother"
+    },
+    {
+        "successor": "mother",
+        "predecessor_1": "brother",
+        "predecessor_2": "mother"
+    },
+    {
+        "successor": "father",
+        "predecessor_1": "sister",
+        "predecessor_2": "father"
+    },
+    {
+        "successor": "father",
+        "predecessor_1": "brother",
+        "predecessor_2": "father"
+    },
+    {
+        "successor": "grandmother",
+        "predecessor_1": "sister",
+        "predecessor_2": "grandmother"
+    },
+    {
+        "successor": "grandmother",
+        "predecessor_1": "brother",
+        "predecessor_2": "grandmother"
+    },
+    {
+        "successor": "grandfather",
+        "predecessor_1": "sister",
+        "predecessor_2": "grandfather"
+    },
+    {
+        "successor": "grandfather",
+        "predecessor_1": "brother",
+        "predecessor_2": "grandfather"
+    },
+    {
+        "successor": "sister",
+        "predecessor_1": "sister",
+        "predecessor_2": "sister"
+    },
+    {
+        "successor": "sister",
+        "predecessor_1": "brother",
+        "predecessor_2": "sister"
+    },
+    {
+        "successor": "brother",
+        "predecessor_1": "sister",
+        "predecessor_2": "brother"
+    },
+    {
+        "successor": "brother",
+        "predecessor_1": "brother",
+        "predecessor_2": "brother"
+    }
+]
