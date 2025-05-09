@@ -29,11 +29,11 @@ df = pd.read_csv('./data/data_test.csv')
 # df["parse"] = ""
 df["parse"] = ""
 
-for index in tqdm(range(104, len(df))):
+for index in tqdm(range(0, len(df))):
   res = GPT_generate_content(df["story"][index])
   print(res)
   df.at[index, "parse"] = res
-  df.to_csv("./data/data_test_parse.csv", index=False)
+  df.to_csv("./data/data_test_parse_phase1.csv", index=False)
 
 # content = """Story: [April] and her son [John] went to the zoo and then out to dinner yesterday. [Carolina] loved to care for her newborn child [Adrian]. [Luella]'s brother [Adrian] and her went to get ice cream. [April] is teaching her niece, [Luella] how to bake a homemade apple pie. [Carolina] is married to Thomas and when she was 24, the couple welcomed [Luella] into the world.
 # Query: ('Eric', 'Marlene'),
