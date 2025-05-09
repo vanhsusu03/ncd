@@ -10,7 +10,8 @@ from asp_rules.rules import rules
 
 from tqdm import tqdm
 df = pd.read_csv("data/2.2,2.3_train_5k.csv")
-#add new columns ans to the dataframe
+# df = pd.read_csv("data/2.2,2.3_train_cannot_answer_70_after_last.csv")
+
 df["ans"] = ""
 
 for index, row in tqdm(df.iterrows()):
@@ -37,4 +38,5 @@ for index, row in tqdm(df.iterrows()):
     # add ans to the ans column
     df.at[index, "ans"] = ans
 
-df.to_csv("data/2.2,2.3_train_5k_ans.csv", index=False)
+df.to_csv("data/2.2,2.3_train_cannot_answer_70_turn_last_edit.csv", index=False)
+

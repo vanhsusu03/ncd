@@ -1,4 +1,5 @@
-gen_rule_prompt = """Story: [Verdie] waved good bye to her dad [Henry] for the day and went next door with her sister [Amanda]. [Henry]'s daughter, [Amanda], went to the city this weekend. She spent her time there visiting her grandfather, [Kyle], and had a wonderful time with him.
+gen_rule_prompt = """
+Story: [Verdie] waved good bye to her dad [Henry] for the day and went next door with her sister [Amanda]. [Henry]'s daughter, [Amanda], went to the city this weekend. She spent her time there visiting her grandfather, [Kyle], and had a wonderful time with him.
 Query: (“Verdie”, “Kyle”)
 Semantic Parse: father("Verdie", "Henry"). sister("Verdie", "Amanda"). daughter("Henry", "Amanda"). grandfather("Amanda", "Kyle").
 Answer: grandfather(“Verdie”, “Kyle”)
@@ -14,7 +15,8 @@ Story: [Karen] was spending the weekend with her grandson, [Eddie]. [Eddie]'s si
 Query: (“Karen”, “Michelle”)
 Semantic Parse: grandson("Karen", "Eddie"). sister("Eddie", "Michelle"). daughter("Theresa", "Michelle"). mother("Eddie", "Theresa").
 Answer: granddaughter(“Karen”, “Michelle”)
-Explain: granddaughter(A, C) :- grandson(A, B), sister(B, C)."""
+Explain: granddaughter(A, C) :- grandson(A, B), sister(B, C).
+"""
 
 semantic_prompt = """Story: [Verdie] waved good bye to her dad [Henry] for the day and went next door with her sister [Amanda]. [Henry]'s daughter, [Amanda], went to the city this weekend. She spent her time there visiting her grandfather, [Kyle], and had a wonderful time with him.
 Semantic Parse: father("Verdie", "Henry"). daughter("Henry", "Verdie"). sister("Verdie", "Amanda"). sister("Amanda", "Verdie"). daughter("Henry", "Amanda"). father("Amanda", "Henry"). grandfather("Amanda", "Kyle"). granddaughter("Kyle", "Amanda").
@@ -25,6 +27,7 @@ Semantic Parse: daughter("Michelle", "Theresa"). mother("Theresa", "Michelle"). 
 Story: [Vernon] was present in the delivery room when his daughter [Raquel] was born, but when his daughter [Constance] was born he was too sick. [Vernon] and his daughter [Margaret] went to the movies. [Constance], [Margaret]'s sister, had to stay home as she was sick.
 Semantic Parse: daughter("Vernon", "Raquel"). father("Raquel", "Vernon"). daughter("Vernon", "Constance"). father("Constance", "Vernon"). daughter("Vernon", "Margaret"). father("Margaret", "Vernon"). sister("Margaret", "Constance").
 """
+
 relations = [
     "sibling",
     "child",
@@ -36,4 +39,29 @@ relations = [
     "un",
     "inv-un",
     "SO",
+]
+
+members = [
+    "father",
+    "mother",
+    "son",
+    "daughter",
+    "grandfather",
+    "grandmother",
+    "grandson",
+    "granddaughter",
+    "sister",
+    "brother",
+    "wife",
+    "husband",
+    "aunt",
+    "uncle",
+    "niece",
+    "nephew",
+    "father-in-law",
+    "mother-in-law",
+    "son-in-law",
+    "daughter-in-law",
+    "sister-in-law",
+    "brother-in-law",
 ]

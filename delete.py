@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('2.2,2.3 train_5k.csv')
+df = pd.read_csv('./data/2.2,2.3_train_5k.csv')
 
 res = []
 # deleted_rules = [
@@ -46,9 +46,9 @@ deleted_rules = [
     'father-mother',
 ]
 for index, row in df.iterrows():
-    if row['f_comb'] not in deleted_rules:
+    if row['f_comb'] in deleted_rules:
         res.append(row)
 
 print(len(res))
 res = pd.DataFrame(res)
-res.to_csv('2.2,2.3_train_3_remaining.csv', index = False)
+res.to_csv('./data/2.2,2.3_train_cannot_answer_85.csv', index = False)

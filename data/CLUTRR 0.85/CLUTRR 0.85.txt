@@ -1,0 +1,17 @@
+CLUTRR 0.85:
+Turn 1: Sinh ra rule: daughter_in_law(A, C) :- son(A, B), wife(B, C). => valid
+Turn 2: Sinh rule: nephew(A, C) :- sister(A, B), son(B, C) sau 3 lan thu => valid
+
+turn 4:
+grandchild:-daughter,child -> invalid story 5
+turn 5
+mother(a,c) = sister(c.b) mother(b,a) => invalid story 8
+turn 6
+story sai => grandfather(A, B) :- mother(B, C), husband(A, C). => story 9
+turn 7
+
+turn 9: father_in_law(A, C) :- father(A, B), wife(B, C).
+turn 10
+story 31 => k dc vì parse sai
+
+trn 11
